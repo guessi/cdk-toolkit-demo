@@ -1,0 +1,19 @@
+{
+  "name": "payload-check-lambda",
+  "version": "1.0.0",
+  "description": "Simple Lambda function for CDK Toolkit Demo",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.3"
+  },
+  "type": "commonjs"
+}

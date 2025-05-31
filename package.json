@@ -1,0 +1,37 @@
+{
+  "name": "cdk-toolkit-demo",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "format": "prettier --write \"**/*.{ts,js,json}\"",
+    "clean": "rm -rf dist cdk.out",
+    "prebuild": "npm run clean",
+    "cleanup": "rm -rf dist cdk.out && find . -name \"*.js\" -not -path \"./node_modules/*\" -not -name \"jest.config.js\" -delete && find . -name \"*.d.ts\" -not -path \"./node_modules/*\" -delete",
+    "start": "npm run build && cd lambda && npx tsc && cd .. && npx ts-node bin/lambda-test.ts",
+    "update-deps": "npm update"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "aws-cdk": "^2.1017.1",
+    "eslint": "^8.57.1",
+    "jest": "^29.7.0",
+    "prettier": "^3.5.3",
+    "ts-jest": "^29.3.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@aws-cdk/toolkit-lib": "^1.0.0",
+    "@aws-sdk/client-lambda": "^3.821.0",
+    "aws-cdk-lib": "^2.199.0",
+    "constructs": "^10.4.2"
+  }
+}
