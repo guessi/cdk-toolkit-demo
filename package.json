@@ -17,21 +17,21 @@
     "update-deps": "npm update"
   },
   "devDependencies": {
-    "@types/jest": "^29.5.14",
-    "@typescript-eslint/eslint-plugin": "^7.18.0",
-    "@typescript-eslint/parser": "^7.18.0",
-    "aws-cdk": "^2.1017.1",
-    "eslint": "^8.57.1",
-    "jest": "^29.7.0",
-    "prettier": "^3.5.3",
-    "ts-jest": "^29.3.4",
+    "@types/jest": "^30.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.56.1",
+    "@typescript-eslint/parser": "^8.56.1",
+    "aws-cdk": "^2.1107.0",
+    "eslint": "^10.0.2",
+    "jest": "^30.2.0",
+    "prettier": "^3.8.1",
+    "ts-jest": "^29.4.6",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@aws-cdk/toolkit-lib": "^1.0.0",
-    "@aws-sdk/client-lambda": "^3.821.0",
-    "aws-cdk-lib": "^2.199.0",
-    "constructs": "^10.4.2"
+    "@aws-cdk/toolkit-lib": "^1.16.0",
+    "@aws-sdk/client-lambda": "^3.996.0",
+    "aws-cdk-lib": "^2.240.0",
+    "constructs": "^10.5.1"
   }
 }
