@@ -18,20 +18,20 @@
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
-    "@typescript-eslint/eslint-plugin": "^8.51.0",
-    "@typescript-eslint/parser": "^8.51.0",
-    "aws-cdk": "^2.1100.1",
+    "@typescript-eslint/eslint-plugin": "^8.53.0",
+    "@typescript-eslint/parser": "^8.53.0",
+    "aws-cdk": "^2.1101.0",
     "eslint": "^9.39.2",
     "jest": "^30.2.0",
-    "prettier": "^3.7.4",
+    "prettier": "^3.8.0",
     "ts-jest": "^29.4.6",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@aws-cdk/toolkit-lib": "^1.12.2",
-    "@aws-sdk/client-lambda": "^3.958.0",
-    "aws-cdk-lib": "^2.233.0",
-    "constructs": "^10.4.4"
+    "@aws-cdk/toolkit-lib": "^1.13.0",
+    "@aws-sdk/client-lambda": "^3.971.0",
+    "aws-cdk-lib": "^2.235.0",
+    "constructs": "^10.4.5"
   }
 }
